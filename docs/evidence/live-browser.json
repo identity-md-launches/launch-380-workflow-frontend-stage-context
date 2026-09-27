@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-27T07:19:44.126Z",
+  "mocked": false,
+  "transactionsBroadcast": 0,
+  "consoleErrors": [],
+  "failedRequests": [],
+  "result": "pass",
+  "block": "Read at block 11,791,793\nRefresh state\n↻",
+  "price": "Pool spot price\n50,000,000\nTHRW / ETH\nPool fee\n0.3\n% + hook fee"
+}

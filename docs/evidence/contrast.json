@@ -1,0 +1,93 @@
+{
+  "method": "WCAG sRGB relative luminance",
+  "pairs": [
+    {
+      "pair": "Body on page",
+      "foreground": "rgb(38, 42, 34)",
+      "background": "rgb(246, 244, 237)",
+      "ratio": 13.28,
+      "threshold": 4.5,
+      "evidence": "browser-computed; transparent body resolves to root"
+    },
+    {
+      "pair": "Secondary on page",
+      "foreground": "rgb(98, 102, 89)",
+      "background": "rgb(246, 244, 237)",
+      "ratio": 5.35,
+      "threshold": 4.5,
+      "evidence": "browser-computed; transparent intro resolves to root"
+    },
+    {
+      "pair": "Body on form",
+      "foreground": "rgb(38, 42, 34)",
+      "background": "rgb(255, 254, 250)",
+      "ratio": 14.48,
+      "threshold": 4.5,
+      "evidence": "browser-computed"
+    },
+    {
+      "pair": "Observed primary action",
+      "foreground": "rgb(255, 254, 250)",
+      "background": "rgb(184, 62, 33)",
+      "ratio": 5.55,
+      "threshold": 4.5,
+      "evidence": "browser-computed"
+    },
+    {
+      "pair": "Primary default",
+      "foreground": "#fffefa",
+      "background": "#b83e21",
+      "ratio": 5.55,
+      "threshold": 4.5,
+      "evidence": "CSS token pair; opaque rendered action"
+    },
+    {
+      "pair": "Secondary on neutral surface",
+      "foreground": "#626659",
+      "background": "#edeae0",
+      "ratio": 4.89,
+      "threshold": 4.5,
+      "evidence": "CSS token pair; opaque rendered neutral surface"
+    },
+    {
+      "pair": "Error message",
+      "foreground": "#a32920",
+      "background": "#fbe9e5",
+      "ratio": 6.18,
+      "threshold": 4.5,
+      "evidence": "CSS token pair; opaque error state exercised"
+    },
+    {
+      "pair": "Control boundary on page",
+      "foreground": "#85897a",
+      "background": "#f6f4ed",
+      "ratio": 3.26,
+      "threshold": 3,
+      "evidence": "CSS token pair; visible input/button boundary"
+    },
+    {
+      "pair": "Control boundary on form",
+      "foreground": "#85897a",
+      "background": "#fffefa",
+      "ratio": 3.55,
+      "threshold": 3,
+      "evidence": "CSS token pair; visible input/button boundary"
+    },
+    {
+      "pair": "Focus on page",
+      "foreground": "#262a22",
+      "background": "#f6f4ed",
+      "ratio": 13.28,
+      "threshold": 3,
+      "evidence": "CSS token pair; focus screenshot"
+    },
+    {
+      "pair": "Focus on form",
+      "foreground": "#262a22",
+      "background": "#fffefa",
+      "ratio": 14.48,
+      "threshold": 3,
+      "evidence": "CSS token pair"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+
+> threeway-interface@1.0.0 test:browser
+> node tests/browser.mjs
+
+PASS Disconnected actions are gated
+PASS Keyboard skip link reaches main content
+PASS Connection rejection has a retryable message
+PASS Wrong-chain state keeps transaction controls disabled
+PASS 4902 fallback adds exact chain parameters and switches again
+PASS Amount, price-limit and recipient validation focus the invalid field
+PASS Keyboard navigation submits the quote from the form
+PASS Buy quote uses configured quoter and ABI-encoded interface address
+PASS Failed simulation blocks wallet signing
+PASS Transaction rejection is recoverable
+PASS Native buy simulates, sends exact value through assigned router and confirms receipt
+PASS Sell approval is a separate exact-amount transaction to PoolSwapTest
+PASS Sell swaps after approval; empty recipient leaves hookData empty
+PASS Claim, donate and burn simulate, confirm and refresh empty buckets
+PASS Event history shows exactly the 20 newest matching pool events
+PASS Expired quote cannot be submitted
+PASS Changing trade inputs invalidates the quote
+PASS Axe automated accessibility audit
+PASS Production subpath renders at 1440px without page overflow
+PASS Production subpath renders at 820px without page overflow
+PASS Production subpath renders at 390px without page overflow
+PASS Production subpath renders at 320px without page overflow
+PASS 200% text enlargement reflows without page overflow (not native zoom)
+PASS Reduced motion removes button transitions
+PASS Keyboard focus screenshot captured
+PASS Empty event history is explicit and refreshable
+PASS Missing contract code disables writes with a recovery message
+PASS Donation remains disabled without active liquidity even when fees are pending
+PASS RPC failure disables writes without showing stale data as fresh
+PASS Missing wallet reports a connection error
+PASS ABI tampering fails closed before wallet controls render
+PASS No browser JavaScript errors or failed resource requests in mocked sessions

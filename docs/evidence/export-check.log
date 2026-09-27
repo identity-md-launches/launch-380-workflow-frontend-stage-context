@@ -1,0 +1,12 @@
+
+> threeway-interface@1.0.0 check:export
+> node scripts/check-export.mjs
+
+{
+  "result": "pass",
+  "assets": 9,
+  "exportBytes": 591650,
+  "abiHashes": "match",
+  "network": "unchanged",
+  "sourceCommit": "d34841a07e4defcec6495fc6742f3ef2c576514a"
+}

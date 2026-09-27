@@ -1,0 +1,23 @@
+{
+  "body": {
+    "color": "rgb(38, 42, 34)",
+    "background": "rgba(0, 0, 0, 0)",
+    "fontSize": "16px"
+  },
+  "muted": {
+    "color": "rgb(98, 102, 89)",
+    "background": "rgba(0, 0, 0, 0)",
+    "fontSize": "17px"
+  },
+  "surface": {
+    "color": "rgb(38, 42, 34)",
+    "background": "rgb(255, 254, 250)",
+    "fontSize": "16px"
+  },
+  "action": {
+    "color": "rgb(255, 254, 250)",
+    "background": "rgb(184, 62, 33)",
+    "fontSize": "13px"
+  },
+  "rootBackground": "rgb(246, 244, 237)"
+}

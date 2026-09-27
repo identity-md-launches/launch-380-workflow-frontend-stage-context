@@ -1,0 +1,28 @@
+{
+  "violations": [],
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "nodes": [
+        {
+          "html": "<span aria-hidden=\"true\">ⓘ</span>",
+          "target": [
+            ".test-note > span[aria-hidden=\"true\"]"
+          ],
+          "checks": [
+            {
+              "id": "color-contrast",
+              "message": "Element content contains only non-text characters",
+              "data": {
+                "messageKey": "nonBmp"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "passes": 29
+}

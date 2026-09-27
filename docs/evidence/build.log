@@ -1,0 +1,26 @@
+
+> threeway-interface@1.0.0 build
+> npm run typecheck && vite build && node scripts/build-manifest.mjs
+
+
+> threeway-interface@1.0.0 typecheck
+> tsc --noEmit
+
+vite v7.3.1 building client environment for production...
+transforming...
+✓ 713 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   0.66 kB │ gzip:   0.41 kB
+../dist/assets/index-DZ-PO2us.css   15.24 kB │ gzip:   3.93 kB
+../dist/assets/ccip-DRgqF0Dp.js      2.61 kB │ gzip:   1.23 kB
+../dist/assets/index-suPm3uMw.js   548.70 kB │ gzip: 169.61 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 3.56s
+Verified THRW: 38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee
+Verified FeeSplitHook: 33493f849c2774bd802f4d94dff98207f3bc3d3d8a1303f1b330e03574e78e21
+Manifest written with 9 assets; network block preserved.

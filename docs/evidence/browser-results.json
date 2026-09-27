@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-27T07:19:20.217Z",
+  "result": "pass",
+  "export": "dist served at /preview/",
+  "walletAndRpc": "mocked; no real transaction broadcast",
+  "browser": "145.0.7632.6",
+  "results": [
+    {
+      "test": "Disconnected actions are gated",
+      "result": "pass"
+    },
+    {
+      "test": "Keyboard skip link reaches main content",
+      "result": "pass"
+    },
+    {
+      "test": "Connection rejection has a retryable message",
+      "result": "pass"
+    },
+    {
+      "test": "Wrong-chain state keeps transaction controls disabled",
+      "result": "pass"
+    },
+    {
+      "test": "4902 fallback adds exact chain parameters and switches again",
+      "result": "pass"
+    },
+    {
+      "test": "Amount, price-limit and recipient validation focus the invalid field",
+      "result": "pass"
+    },
+    {
+      "test": "Keyboard navigation submits the quote from the form",
+      "result": "pass"
+    },
+    {
+      "test": "Buy quote uses configured quoter and ABI-encoded interface address",
+      "result": "pass"
+    },
+    {
+      "test": "Failed simulation blocks wallet signing",
+      "result": "pass"
+    },
+    {
+      "test": "Transaction rejection is recoverable",
+      "result": "pass"
+    },
+    {
+      "test": "Native buy simulates, sends exact value through assigned router and confirms receipt",
+      "result": "pass"
+    },
+    {
+      "test": "Sell approval is a separate exact-amount transaction to PoolSwapTest",
+      "result": "pass"
+    },
+    {
+      "test": "Sell swaps after approval; empty recipient leaves hookData empty",
+      "result": "pass"
+    },
+    {
+      "test": "Claim, donate and burn simulate, confirm and refresh empty buckets",
+      "result": "pass"
+    },
+    {
+      "test": "Event history shows exactly the 20 newest matching pool events",
+      "result": "pass"
+    },
+    {
+      "test": "Expired quote cannot be submitted",
+      "result": "pass"
+    },
+    {
+      "test": "Changing trade inputs invalidates the quote",
+      "result": "pass"
+    },
+    {
+      "test": "Axe automated accessibility audit",
+      "result": "pass",
+      "detail": "29 checks passed; manual checks remain separate"
+    },
+    {
+      "test": "Production subpath renders at 1440px without page overflow",
+      "result": "pass"
+    },
+    {
+      "test": "Production subpath renders at 820px without page overflow",
+      "result": "pass"
+    },
+    {
+      "test": "Production subpath renders at 390px without page overflow",
+      "result": "pass"
+    },
+    {
+      "test": "Production subpath renders at 320px without page overflow",
+      "result": "pass"
+    },
+    {
+      "test": "200% text enlargement reflows without page overflow (not native zoom)",
+      "result": "pass"
+    },
+    {
+      "test": "Reduced motion removes button transitions",
+      "result": "pass"
+    },
+    {
+      "test": "Keyboard focus screenshot captured",
+      "result": "pass"
+    },
+    {
+      "test": "Empty event history is explicit and refreshable",
+      "result": "pass"
+    },
+    {
+      "test": "Missing contract code disables writes with a recovery message",
+      "result": "pass"
+    },
+    {
+      "test": "Donation remains disabled without active liquidity even when fees are pending",
+      "result": "pass"
+    },
+    {
+      "test": "RPC failure disables writes without showing stale data as fresh",
+      "result": "pass"
+    },
+    {
+      "test": "Missing wallet reports a connection error",
+      "result": "pass"
+    },
+    {
+      "test": "ABI tampering fails closed before wallet controls render",
+      "result": "pass"
+    },
+    {
+      "test": "No browser JavaScript errors or failed resource requests in mocked sessions",
+      "result": "pass"
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

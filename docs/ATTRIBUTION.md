@@ -1,0 +1,9 @@
+# Design guidance and interface sources
+
+The assigned pinned Better Interface guide informed the implementation and six-domain review. Design principles: Jakub Krehel, Better Interface, commit `267330e1adfc66a718fb65fa6918c1f06d0a689e`, Copyright (c) 2026 Jakub Krehel, MIT. [Pinned source](https://github.com/jakubkrehel/skills/tree/267330e1adfc66a718fb65fa6918c1f06d0a689e/skills/better-interface); [retained license](licenses/Better-Interface-MIT.txt).
+
+The design documentation method is adapted from Paul Bakaus, Impeccable, commit `9d715cc4f5564a990ca8345abfdd5df6dc9b41c8`, Copyright 2025 Paul Bakaus, Apache-2.0. [Pinned documentation source](https://github.com/pbakaus/impeccable/blob/9d715cc4f5564a990ca8345abfdd5df6dc9b41c8/skill/reference/document.md); [retained license and copyright notice](licenses/Impeccable-Apache-2.0.txt). The documentation here describes this implementation; it does not reproduce the upstream reference manual or claim upstream approval. The two works retain their separate licenses.
+
+Infrastructure ABI subsets are declared in `web/scripts/build-manifest.mjs`. PoolSwapTest's tuple signatures and behavior were checked against the existing `lib/v4-core/src/test/PoolSwapTest.sol` at the deployed source commit. These minimal interfaces are separate from the exact implementation-derived launch ABIs. The configured quoter and StateView signatures were also exercised successfully against Sepolia. [Uniswap v4 deployment reference](https://developers.uniswap.org/docs/protocols/v4/deployments). Contract simulation uses the [viem simulateContract interface](https://viem.sh/docs/contract/simulateContract).
+
+Fonts are the platform Arial/Helvetica/sans-serif stack. The mark is composed of CSS shapes. No downloaded image, icon library, remote font or generated raster asset is used.

@@ -1,0 +1,54 @@
+{
+  "time": "2026-09-27T07:10:05.779Z",
+  "readOnly": true,
+  "transactionsBroadcast": 0,
+  "endpoints": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "verification": "Chain ID, six nonempty contract codes, hook/router manager binding passed",
+      "state": {
+        "blockNumber": "11791745",
+        "totals": [
+          "0",
+          "0",
+          "0"
+        ],
+        "lp": "0",
+        "burn": "0",
+        "allBurn": "0",
+        "total": "0",
+        "feeBps": 100,
+        "interfaceBps": 2000,
+        "lpBps": 3000,
+        "burnBps": 5000,
+        "bps": 10000,
+        "sqrtPrice": "560227709747861399187319382274582",
+        "tick": 177284,
+        "lpFee": 3000,
+        "liquidity": "0",
+        "decimals": 18,
+        "supply": "1000000000000000000000000000",
+        "tokenBalance": "0",
+        "ethBalance": "0",
+        "claimable": "0",
+        "allowance": "0",
+        "allInterface": "0",
+        "allLP": "0",
+        "burnAddress": "0x000000000000000000000000000000000000dEaD",
+        "at": 1790493006317
+      },
+      "poolId": "0x9918a62a6d5d92e4cd6193b265d03354833e22f42bbfd36701080154606e5e2e",
+      "buyQuote": {
+        "amountIn": "1000000000000",
+        "amountOut": "49133859246231437308"
+      },
+      "eventCount": 0,
+      "eventWindow": [
+        11791640,
+        "11791745"
+      ]
+    }
+  ],
+  "result": "live reads passed"
+}

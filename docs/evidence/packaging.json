@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-27T07:23:32.523265+00:00",
+  "result": "pass",
+  "scope": "web/**, dist/**, docs/** plus explicit web/.gitignore",
+  "baseCommit": "d34841a07e4defcec6495fc6742f3ef2c576514a",
+  "changedFileCount": 60,
+  "completeHistoryBundleBytes": 1779547,
+  "reservedBytesForThisReportAndGitOverhead": 8192,
+  "budgetBytes": 8388608,
+  "bundleIncludesOriginalHistory": true,
+  "newSubmodules": false,
+  "excluded": [
+    "node_modules",
+    "package-manager caches",
+    "scratch directories",
+    "this generated report"
+  ],
+  "originalRepositoryCommit": "blocked: original .git metadata is read-only",
+  "note": "The scratch clone is a packaging fixture, not a publication or an original-repository commit."
+}

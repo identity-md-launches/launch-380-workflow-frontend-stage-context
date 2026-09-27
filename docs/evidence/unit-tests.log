@@ -1,0 +1,50 @@
+
+> threeway-interface@1.0.0 test
+> node --import tsx --test tests/*.test.ts
+
+TAP version 13
+# Subtest: strict amounts preserve every wei, reject rounding, scientific notation and overflow
+ok 1 - strict amounts preserve every wei, reject rounding, scientific notation and overflow
+  ---
+  duration_ms: 2.031928
+  type: 'test'
+  ...
+# Subtest: interface data uses exactly one ABI address word; blank means no attribution
+ok 2 - interface data uses exactly one ABI address word; blank means no attribution
+  ---
+  duration_ms: 3.158194
+  type: 'test'
+  ...
+# Subtest: price caps are rounded conservatively in both directions across fuzzed integer prices
+ok 3 - price caps are rounded conservatively in both directions across fuzzed integer prices
+  ---
+  duration_ms: 21.364021
+  type: 'test'
+  ...
+# Subtest: unknown chains are added from exact handoff parameters then switched again
+ok 4 - unknown chains are added from exact handoff parameters then switched again
+  ---
+  duration_ms: 1.43582
+  type: 'test'
+  ...
+# Subtest: wallet rejection never falls through to adding a chain
+ok 5 - wallet rejection never falls through to adding a chain
+  ---
+  duration_ms: 0.55054
+  type: 'test'
+  ...
+# Subtest: ABI canonicalization sorts object keys, preserves ordered arrays and rejects path traversal
+ok 6 - ABI canonicalization sorts object keys, preserves ordered arrays and rejects path traversal
+  ---
+  duration_ms: 3.015103
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 783.218669
